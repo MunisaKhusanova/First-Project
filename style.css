@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.form-group1{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:grey;
+    padding:15px;
+    display: block;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: -20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+form{
+    display: block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: -100px;
+}
+section img{
+    display: block;
+    max-width:68%;
+}
+.form-group1 p{
+    font-size:20px;
+    padding:8px;
+    margin-right: 15px;
+}
+.main2{
+    line-height: 30px;
+    max-height: 100%;
+    max-width:95%;
+    background-color: black;
+    padding:35px;
+}
+.main2 h3{
+    color:white;
+    margin-bottom: 12px;
+}
+.main2 h1{
+    color:rgb(255, 183, 0);
+    margin-bottom: 25px;
+}
+.main h1{
+    width:95%;
+    font-size:60px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.main p{
+    margin-top:30px;
+}
+button{
+    background-color: orangered;
+    color:white;
+    padding:20px 30px;
+    margin-bottom: 40px;
+    border:none;
+    margin-left:370px;
+    margin-top: -75px;
+    display: block;
+    font-size: 17px;
+}
+.main2 hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+p{
+    color:grey;
+    font-size: 17px;
+    padding:5px;
+}
+aside{
+    margin-left:70%;
+    margin-top:-52%;  
+}
+article{
+    margin-top: 50px;
+    padding:40px 0px;
+}
+article h1{
+    color:orangered;
+}
+article img{
+    display: block;
+}
+.image{
+    max-width: 70%;
+    max-height: 50%;
+}
+.last,.last1,.last2{
+    margin-top: -120px;
+    margin-left: 120px;
+}
+a:hover{
+    color: orangered;
+}
+button:hover{
+    background-color: black;
+}
+article h3:hover{
+    color:orangered;
+}
+aside h3:hover{
+    color:rgb(255, 183, 0);
+}
+article {
+    gap:20px;
+}
+@media (max-width: 750px){
+    article{
+        display: block;
+    }
+}
